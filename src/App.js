@@ -29,7 +29,6 @@ function App() {
           <Route element={<Todo />} path="todo" />
           <Route element={<Register />} path="register" />
           <Route element={<UserManager />} path="usermanager" />
-          <Route element={<NotFound />} path="*" />
 
         </Routes>
       </BrowserRouter>
